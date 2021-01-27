@@ -32,7 +32,7 @@ public class IntegralPyramid {
     } else {
       for (int row = n - 1; row >= 0; row--) {
         for (int col = 0; col < n - row - 1; col++) {
-          System.out.print(Math.pow(2, row));
+          System.out.print((int) Math.pow(2, row));
           System.out.print(" ");
         }
         System.out.println(last + (int) Math.pow(2, row) - 1);
